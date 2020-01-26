@@ -49,6 +49,7 @@ public class GetById {
     Assert.assertEquals("knutmt@gmail.com", response.getBody().path("fromemail"));
     Assert.assertEquals("D6FWV", response.getBody().path("ticket"));
     Assert.assertEquals("New Issue", response.getBody().path("title"));
+    System.out.println(id);
   }
 
   /*
